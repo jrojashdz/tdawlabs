@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <style media="screen">
+    body { font-size: 100%; }
+    p {
+      font-size: 16px; /* for older browsers: won’t scale properly though */
+      font-size: 1rem; /* for new browsers: scales and simple too */
+    }
+    h1 { font-size: 2em; }
+    article { font-size: 75% } /* h1 = 2 * 16 * 0.75 = 24px p = 1 * 16 = 16px */
+    div { font-size: 75% }
+  </style>
+</head>
+<body>
+  <p>this is 16 pixels</p>
+  <h1>this is 32 pixels</h1>
+  <article>
+    <h1>this is 32 pixels</h1>
+    <p>this is 16 pixels</p>
+    <div>
+      <h1>this is 32 pixels</h1>
+      <p>this is 16 pixels</p>
+    </div>
+  </article>
+</body>
+</html>
